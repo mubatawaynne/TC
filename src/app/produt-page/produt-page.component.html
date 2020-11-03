@@ -1,1 +1,24 @@
-<p>produt-page works!</p>
+<div class="products-container">
+
+    <div class="product-section">
+      <div  class="product-item" *ngFor="let product_item of product_list; index as i" >
+        <div class="product-photo">
+             <img class="product-image" [src]="product_item.image" />
+        </div>
+        <div class="product-desc">
+            Product: {{product_item.name}} ${{product_item.price}}
+        </div>
+        <div class="product-quantity">
+            Qnty:  {{product_item.quantity}}
+              <button mat-raised-button  (click)="addToCart(i)">+ Add</button>
+              <button mat-raised-button  (click)="removefromCart(i)">- Rmv</button>
+        </div>
+      </div>
+    
+    </div>
+    <!-- cart Products {{cart.length}}
+    
+      Total ${{total}} -->
+    
+    </div>
+    

@@ -30,8 +30,8 @@ export class SliderComponent implements OnInit {
   current_index = 0;
   show_slider = true;
   slides=[
-  {img:'../../../assets/img/banner-1.jpg',heading1:'Siting & Drilling',heading2:'Installation',heading3:'Services'},
-  {img:'../../../assets/img/Bannerdrilling1.jpg',heading1:'Durable Equipement',heading2:'Maintanance',heading3:'Plus Warranty'},
+  {img:'../../../assets/img/boxes.jpg',heading1:'Storage & Organisers',heading2:'We have a place in your home',heading3:'Services'},
+  {img:'../../../assets/img/archive.jpg',heading1:'Durable Products',heading2:'Maintanance',heading3:'Plus Warranty'},
 ]
   @Output() flip:EventEmitter<any> = new EventEmitter()
   constructor() { }

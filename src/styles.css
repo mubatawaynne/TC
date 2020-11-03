@@ -2,7 +2,7 @@
 /* Global Styles */
 
 * {
-    font-family: 'Roboto', Arial, sans-serif;
+    /*font-family: 'Roboto', Arial, sans-serif;*/
     
     box-sizing: border-box;
     -webkit-font-smoothing: antialiased;
@@ -12,7 +12,10 @@
   body {
     margin: 0;
   }
-  
+  *:focus{
+    outline:none !important;
+    border: 0 !important;
+}
   .container {
     display: flex;
     flex-direction: row;
@@ -21,4 +24,7 @@
   router-outlet + *  {
     padding: 0 16px;
   }
-  
+  html, body { height: 100%; }
+  body { margin: 0; font-family: 'Questrial', sans-serif;}
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif;}

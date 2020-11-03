@@ -8,11 +8,13 @@ import {NavbarComponent} from './navbar/navbar.component';
 import {ProductListComponent} from './product-list/product-list.component';
 import {ProdutPageComponent} from './produt-page/produt-page.component';
 import {ProjectsComponent} from './projects/projects.component';
-import {RequestQuoteComponent} from './request-quote/request-quote.component';
+import { CartComponent } from './cart/cart.component';
+
 
  
 
 const routes: Routes = [
+  {path:'',redirectTo:'home',pathMatch:'full'},
   {path:'home', component:HomeComponent},
   {path:'about', component:AboutComponent},
   {path:'contact-us', component:ContactUsComponent},
@@ -21,7 +23,7 @@ const routes: Routes = [
   {path:'product-list', component:ProductListComponent},
   {path:'produt-page', component:ProdutPageComponent},
   {path:'projects', component:ProjectsComponent},
-  {path:'request-quote', component:RequestQuoteComponent},
+  {path:'cart', component:CartComponent},
  
 ];
 @NgModule({

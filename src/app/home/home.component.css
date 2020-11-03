@@ -1,0 +1,115 @@
+.content-container{
+   
+}
+
+.divider-section{
+    display: flex;
+    justify-content: center;
+}
+.divider{
+    height: 1px;
+    width: 60%;
+    background-color: #eee;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.product-titles{
+    height: 150px;
+    margin-left: 5%;
+    margin-right: 5%;
+    justify-content: center;
+    display: flex;
+}
+.storage-types{
+    height: 150px;
+    width: 400px;
+    background-color: #eee;
+    margin-right: 3px;
+   
+    
+}
+.storage-type-title{
+    font-size: 1.1rem;
+    text-align: center;
+    justify-content: center;
+    color:dimgrey;
+    font-weight: 600;
+    justify-content: center;
+}
+.storage-desc{
+    font-size: 1rem;
+    justify-content: center;
+    color: dimgrey;
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.Best-Prod{
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+}
+.best-Prod-title{
+color: deepskyblue;
+font-weight: 600;
+border-left: 5px solid #00FFFF;
+padding-left: 10px;
+margin-top: 20px;
+height: 50px;
+width: 100%;
+margin-left: 5%;
+margin-right: 10px;
+
+}
+.featured-brands{
+height: 250px;
+}
+.featured-brand-title{
+color: deepskyblue;
+font-size: 1rem;
+text-decoration: none;
+font-weight: 800;
+border-left: 5px solid #00FFFF;
+margin-left: 5%;
+margin-top: 20px;
+padding-left: 10px;
+height: 50px;
+
+
+}
+.Prod-section{
+display: flex;  
+height: 200px;
+margin-right: 5%;
+justify-content: center;
+margin-bottom: 25px;
+margin-left: 5%;
+margin-top: 25px;
+}
+.feat-prod-img{
+    display: flex;
+    text-align: center;
+    padding-right: 20px;
+    justify-content: center;
+    flex-direction: column;
+}
+.feat-img{
+    height: 150px;
+    width: 150px;
+    display: flex;
+    object-fit: contain;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+.prod-desc{
+
+    color: dimgrey;
+}
+.feat-prod-img{
+height: 200px;
+width: 100%;
+font-weight: 600;
+}
+
+

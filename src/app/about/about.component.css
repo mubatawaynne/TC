@@ -1,0 +1,101 @@
+.about-containter{
+
+}
+.container-header{
+    height: 150px;
+    width: 100%;
+   
+    display: flex;
+    align-items: center;
+   
+}
+.about-title{
+    color: deepskyblue;
+    border-left:8px solid 	#00FFFF;
+    border-top: 0.5px solid #eee ;
+    border-bottom: 0.5px solid #eee;
+    border-right: 0.5px solid #eee;
+    padding-left: 20px;
+    margin-left: 5%;
+    padding-bottom: 0px;
+    text-decoration: none;
+    font-size: 1.5rem;
+    flex-grow: 1;
+    margin-right: 5%;
+}
+.mission-title{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    color: deepskyblue;
+
+}
+.mission-container{
+
+}
+.mission-desc{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 25px;
+    color: dimgrey;
+}
+.divider{
+    display: flex;
+    justify-content: center;
+}
+.divider-line{
+    height: 1px;
+    width: 80%;
+    background-color: #eee;
+    margin-bottom: 25px;
+
+} 
+.team-title{
+    display:flex;
+    align-items: center;
+    justify-content: center; 
+    color: deepskyblue;
+}
+.team-container{
+
+} 
+.team-desc{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 25px;
+    color: dimgrey;
+}
+.profile-section{
+    display: flex;
+    margin-bottom: 25px;
+    justify-content: center;
+    height: 300px;
+    
+} 
+.profile-name{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.profile-image{
+    display: flex;
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+.name-desc{
+    color: deepskyblue;
+}

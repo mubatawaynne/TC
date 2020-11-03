@@ -7,13 +7,15 @@ import { HomeComponent } from './home/home.component';
 import { ProdutPageComponent } from './produt-page/produt-page.component';
 import { AboutComponent } from './about/about.component';
 import { ProductListComponent } from './product-list/product-list.component';
-
-import { RequestQuoteComponent } from './request-quote/request-quote.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
 import { SliderComponent } from './components/slider/slider.component';
+import { TestimonialsComponent } from './testimonials/testimonials.component';
+import { ChatComponent } from './chat/chat.component';
+import { BrandsComponent } from './brands/brands.component';
+import { CartComponent } from './cart/cart.component';
 
 
 @NgModule({
@@ -24,12 +26,16 @@ import { SliderComponent } from './components/slider/slider.component';
     AboutComponent,
     ProductListComponent,
   
-    RequestQuoteComponent,
+    
     NavbarComponent,
     FooterComponent,
     ProjectsComponent,
     ContactUsComponent,
     SliderComponent,
+    TestimonialsComponent,
+    ChatComponent,
+    BrandsComponent,
+    CartComponent,
    
   ],
   imports: [
